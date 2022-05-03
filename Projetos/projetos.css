@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;  
+}
+
+body{
+    font-size: 100%;
+    background-color: #222;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif; 
+    color: #f6cafe;
+    font-weight:400;
+    font-size:18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #9e02b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 50%;
+}
+
+.projetos-titulo {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-family: 'Righteous', cursive;
+    font-weight: 5;
+    font-size: 55px;
+    color: #9e02b8;
+}
+
+.projetos-card {
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: #f6cafe;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+
+}
+
+.img-card {
+    max-width: 80px;
+    display: block;
+    transform: translateY(-30px);
+}
+
+.projetos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-projeto {
+    display: flex;
+    justify-content:flex-start;
+    margin: 25px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 5;
+    font-size: 40px;
+    color: #9e02b8;
+}
+.descricao {
+    margin: 5%;
+    text-align: justify;
+    color: #222;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+.projetos-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #9e02b8;
+    width: fit-content;
+    padding: 5px 10px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #f6cafe;
+    margin-bottom: 15px;
+}
+
+.links-projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin: auto;
+    width: 80%;
+
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.nome-projeto {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 5;
+    font-size: 55px;
+    color: #9e02b8;
+}
+
+.btn-web {
+    background-color: #f6cafe;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f2325;
+  }
+  
+  .btn-git {
+    background-color: #f6cafe;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f2325;
+  }
+  .conteudo-principal-escrito-botao:hover {
+     background-color: rgba(236, 214, 196, 0.53); 
+  }
+  
+  .projeto-img {
+      height: 250px;
+      padding: 25px;
+  }
+
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #9e02b8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.media-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape-redes {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 5;
+    font-size: 20px;
+    color: #9e02b8;
+}
+
+.contacts {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+}
+
+.info-rodape {
+    color: #f6cafe;
+    font-size: 15px;
+}
