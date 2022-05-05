@@ -70,6 +70,8 @@ body{
     margin-left: auto;
     width: 60%;
 
+    flex-wrap: wrap;
+
 }
 
 .img-card {
@@ -81,6 +83,7 @@ body{
 .projetos-texto {
     display: flex;
     flex-direction: column;
+
 }
 
 .nome-projeto {
@@ -90,8 +93,9 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 5;
     font-size: 40px;
-    color: #9e02b8;
+    color: #9e02b8; 
 }
+
 .descricao {
     margin: 5%;
     text-align: justify;
@@ -119,66 +123,6 @@ body{
     color: #f6cafe;
     margin-bottom: 15px;
 }
-
-.links-projetos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 5%;
-    margin: auto;
-    width: 80%;
-
-}
-
-.projeto {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-
-}
-
-.nome-projeto {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 5;
-    font-size: 55px;
-    color: #9e02b8;
-}
-
-.btn-web {
-    background-color: #f6cafe;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #2f2325;
-  }
-  
-  .btn-git {
-    background-color: #f6cafe;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #2f2325;
-  }
-  .conteudo-principal-escrito-botao:hover {
-     background-color: rgba(236, 214, 196, 0.53); 
-  }
-  
-  .projeto-img {
-      height: 250px;
-      padding: 25px;
-  }
-
-
 
 .rodape {
     padding: 32px;
@@ -211,4 +155,161 @@ body{
 .info-rodape {
     color: #f6cafe;
     font-size: 15px;
+}
+
+@media (max-width: 820px){
+
+    .projetos {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 50%;
+    }
+    
+    .projetos-titulo {
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-family: 'Righteous', cursive;
+        font-size: 45px;
+        color: #9e02b8;
+    }
+}
+
+@media (max-width: 820px) {
+    .projetos-card {
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        background-color: #f6cafe;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .nome-projeto {
+        display: flex;
+        justify-content:flex-start;
+        margin: 5%;
+        margin-top: auto;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 5;
+        font-size: 25px;
+        color: #9e02b8;
+    
+    }
+}
+
+@media (max-width:820px) {
+
+    .descricao {
+        margin: 5%;
+        margin-top: auto;
+        display: flex;
+        color: #222;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:820px) {
+    .projetos-btn{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn {
+        display: flex;
+        background-color: #9e02b8;
+        width: fit-content;
+        padding: 5px 10px ;
+        height: auto;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: #f6cafe;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 820px){
+
+    .rodape {
+        padding: 32px;
+        border-top: 0.4px solid #9e02b8;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .media-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .icons-rodape{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .github-icon{
+        width: 80px;
+        height: 80px;
+    
+    }
+
+    .linkedin-icon{
+        width: 80px;
+        height: 80x;
+    
+    }
+
+    .wpp-icon{
+        width: 80px;
+        height: 80x;
+    
+    }
+
+
+    .rodape-redes {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        font-family: 'Sarala', sans-serif;
+        font-size: 20px;
+        color: #9e02b8;
+    }
+
+    .icons-rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .contacts {
+        margin:auto;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    .info-rodape {
+        color: #f6cafe;
+        font-size: 15px;
+        align-content: space-around;
+    }
 }
